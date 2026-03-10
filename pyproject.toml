@@ -1,7 +1,7 @@
 [project]
 name = "transform-book-early-childhood"
 version = "0.1.0"
-description = "Add your description here"
+description = "Extract and structure the MINEDUCYT early childhood education PDF into Markdown"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
