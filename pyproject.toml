@@ -1,10 +1,14 @@
 [project]
-name = "transform-book-early-childhood"
+name = "data-processors"
 version = "0.1.0"
-description = "Extract and structure the MINEDUCYT early childhood education PDF into Markdown"
+description = "Workspace for MINEDUCYT data processing projects"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "pdfplumber>=0.11.9",
-    "pymupdf>=1.27.1",
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "book-02-inicial-lactantes",
+    "project-03",
+    "LXP-comparer",
 ]

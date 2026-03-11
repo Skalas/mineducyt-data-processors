@@ -2,5 +2,7 @@
 .venv/
 *.zip
 *.pdf
+*.doc
+*.xlsx
 __pycache__/
-output/
+**/output/
